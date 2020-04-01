@@ -26,11 +26,12 @@ class Blog extends Component {
     
     
     getProximo = () => {
-        if (this.state.id)
+        //if (this.state.id) VERIFICAR LIMITES
         this.setState({ id: this.state.id +1 })
     }
     
     getAnterior = () => {
+        // VERIFICAR LIMITES
         this.setState({ id: this.state.id -1 })
     }
     
